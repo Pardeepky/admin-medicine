@@ -1,0 +1,43 @@
+.header {
+    position: fixed;
+    top: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    height: 3rem;
+    z-index: 9;
+}
+
+.header ul{
+    cursor: pointer;
+    list-style-type: none;
+    margin: auto;
+}
+
+.header ul li{
+    display: inline-block;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.heading{
+    padding: 4rem;
+    height: 15rem;
+    background: #777;
+    color: white;
+    font-size: 6rem;
+    text-align: center;
+}
+
+.header a{
+    color: white; 
+    text-decoration: none;
+}
+
+.header a:hover,
+.header a.active{
+ color: rgb(143, 223, 221);
+ text-decoration: underline;
+}
